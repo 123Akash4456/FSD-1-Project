@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div.main-body {
+      
+	 
+	  div.main-body {
     display: grid;
-    grid-template-columns: (px , auto);   
-    grid-template-areas: "navbar ";
-    grid-gap: 150px;
+    grid-template-columns: (2px , auto);   
+    grid-template-areas: "navbar main-doc";
+    grid-gap: 200px;
     background-color: aqua;
 }
 
@@ -30,7 +32,7 @@ nav#navbar a {
 }
 
 main#main-doc {
-    grid-area: mainContent;
+    grid-area:main-doc;
 }
 header {
     font-size: 100%;
@@ -400,3 +402,4 @@ code {
 </body>
 
 </html>
+
